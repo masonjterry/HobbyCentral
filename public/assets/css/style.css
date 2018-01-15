@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #42a5f5;
+  font-family: "Share", cursive;
+}
+
+#logo {
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  margin-left: 10px;
+}
+
+h1, h2, #cat-name, #cat, #dir {
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px #777;
+}
+
+img {
+  max-width: 200px;
+}
+
+.slide {
+  animation-duration: 1s;
+  animation-name: slide-left;
+}
+
+@keyframes slide-left {
+	from {
+    margin-left: 300%;
+    width: 100%;
+  }
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h2,
+#cat-name,
+#cat,
+#dir {
+  font-size: 1.5rem;
+}
+
+#user-info {
+  margin-top: 10px;
+}
+
+.category, .hobby-list, .hobby {
+  color: #ffffff;
+}
+
+.style-background, .add-div {
+  color: #42a5f5;
+  background-color: #ffffff;
+  text-align: center;
+  border: solid 2px #555;
+  border-radius: 10px;
+  box-shadow: 2px 2px #777;
+  }
+
+button {
+  margin: 10px;
+  width: 100%;
+}
+
+#instructions-div,
+#materials-div {
+  color: #444;
+  font-size: 1.5rem;
+}
+
+iframe {
+  max-width: 100%;
+}
+
+.btn {
+  background-color: white;
+  color: #42a5f5;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+#category-name,
+#hobby-name,
+#materials-input,
+#steps-input,
+#images-input,
+#videos-input,
+#username,
+#password,
+#email,
+#firstName,
+#lastName {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px;
+  padding: 10px;
+}
+
+#imagesDiv,
+#materialsDiv,
+#videosDiv,
+#instructionsDiv {
+  font-size: 2rem;
+  color: #42a5f5;
+  border-bottom: solid 2px #aaa;
+  margin: 5px;
+}

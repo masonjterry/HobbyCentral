@@ -1,0 +1,27 @@
+<div class="main">
+  <div class="row">
+    <div class="col s12">
+      <h1 id="welcome">Welcome to Hobby Central</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12">
+      <h2>What would you like to learn today</h2>
+    </div>
+  </div>
+  <div class="slide">
+    <!-- Category Selection -->
+    <div id="dropdown1" class="row">
+      <div class="input-field category col s8 offset-s2">
+        <div id="category">
+          <p id="cat">Categories</p>
+          {{#each categories}}
+            <button class="btn z-depth-5 cat-list" value="{{this}}">{{this}}</button>
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JavaScript -->
+<script type="text/javascript" src="assets/js/index.js"></script>
